@@ -1,0 +1,50 @@
+@media screen and (min-width:360px)and (max-width:820px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    .image {
+        background-image: url("./assets/BG-Cell.jpg");
+        filter: blur(3px);
+    }
+
+    header {
+        width: 100vw;
+        padding: 10px 1px;
+        box-shadow: rgba(198, 198, 198, 0.664) 2px 2px 10px 2px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .link-header {
+        text-align: center;
+        padding: 10px;
+    }
+
+    main {
+        padding: 50px 30px;
+    }
+
+    main .cont1 {
+        gap: 10px;
+        color: white;
+    }
+
+    h1 {
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+}

@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.image {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("./assets/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+header {
+    width: 100vw;
+    padding: 10px 30px;
+    background: transparent;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: rgb(0 0 0) 2px 2px 10px 2px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.link-header {
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    transition: .3s ease-in-out;
+}
+
+.link-header:hover {
+    color: #024959;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.link-header:active {
+    opacity: 0.6;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px 100px;
+}
+
+main .cont1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+main .cont2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+span {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+main .cont2 .submits {
+    display: flex;
+    gap: 15px;
+}
+
+input {
+    width: 200px;
+    background: rgba(89, 2, 9, 0.5);
+    border-radius: 16px;
+    padding: 15px;
+    border: none;
+    outline: 0;
+    color: #fff;
+}
+
+input:hover {
+    opacity: 0.8;
+}
+
+button {
+    width: 150px;
+    height: 55px;
+    background: linear-gradient(0deg, rgba(4, 8, 13, 0.4), rgba(4, 8, 13, 0.4)) #024959;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
